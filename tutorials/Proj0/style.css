@@ -1,0 +1,30 @@
+
+.box1 {
+    background-color: rgb(185, 52, 52);
+    width: 600px;
+    height: 400px;
+}
+
+.box2 {
+    background-color: rebeccapurple;
+    width: 600px;
+    height: 400px;
+}
+
+.box1_1 {
+    background-color: chartreuse;
+    width: 100px;
+    height: 300px;
+
+}
+.box2_1 {
+    background-color:darkorange;
+    width: 100px;   
+    height: 300px;
+
+}
+
+.highlight-text {
+    color: dodgerblue;
+    font-size: 30px;
+}

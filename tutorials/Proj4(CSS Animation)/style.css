@@ -1,0 +1,14 @@
+body {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+img {
+    transform: rotateZ(-90deg) translateY(200px) scale(2);
+}
+
+.wrapper {
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}

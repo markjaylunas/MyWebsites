@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: rgb(41, 38, 37);
+    background-image: url(images/elephant.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+header {
+    width: 1024px;
+    height: 118px;
+    text-align: center;
+    padding-top: 25px;
+}
+nav {
+    background-color:rgba(0, 0, 0, 0.267);
+    width: 1024px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+main {
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 1024px;
+    height: 400px;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-left: 240;
+    padding-right: 240;
+}
+footer {
+    margin-top: 20px;
+    background-color:rgba(0, 0, 0, 0.288);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container {
+    width:1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-size: 84px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    font-size: 20px;
+    /* text-decoration: none; */
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+footer p {
+    font-size: 10px;
+    text-align: center;
+}
+.maps {
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+section {
+    text-align: center;
+}
+section iframe {
+    padding-top: 30px;
+
+}
