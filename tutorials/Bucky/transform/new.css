@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background: rgb(37,37,37);
+}
+
+#box {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    /* background: orange; */
+    /* background: -webkit-linear-gradient(45deg,teal,rgb(61, 103, 192)); */
+    background: -webkit-radial-gradient(center,circle,red 0%,orange 70%);
+    border-radius: 20px;
+    /* -webkit-border-radius: 25px */
+    box-shadow: rgb(156, 156, 156) 8px 8px 8px;
+    -webkit-transform: translate(250px,100px);
+}
+
+#text {
+    font: bold 30px Century Gothic;
+    text-shadow: rgb(107, 107, 107) 3px 3px 4px;
+}
