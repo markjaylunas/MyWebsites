@@ -1,0 +1,14 @@
+body {
+    background: rgb(66, 65, 63);
+}
+.theme {
+    width: 400px;
+    height: 700px;
+    background: rgb(89, 89, 89);
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    rotate: 140deg;
+    position: absolute;
+}

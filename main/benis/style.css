@@ -1,0 +1,12 @@
+body{
+    display: flexbox;
+    background: rgb(0, 110, 255);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    
+}
+.ulo {
+    border: 2px solid pink;
+    background: black;
+}

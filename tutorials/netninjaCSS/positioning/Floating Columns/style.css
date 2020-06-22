@@ -1,0 +1,42 @@
+body {
+    background: rgb(151, 150, 150);
+    font-size: 14px;
+}
+
+.wrapper {
+    background: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.services:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.service h2, .service p {
+    color: rgb(87, 85, 85);
+    margin: 10px 0;
+    text-align: center;
+
+}
+.service {
+    float: left;
+    background: #eee;
+    width: 29.33%;
+    margin: 1%;
+    padding: 1%;
+    height: 140px;
+}
+.content {
+    padding: 10px;
+    background: #ccc;
+    clear: left;
+    margin: 10px 1%;
+}
