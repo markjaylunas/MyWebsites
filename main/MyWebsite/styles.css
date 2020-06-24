@@ -1,6 +1,59 @@
-body {
-
+body , h2{
+    margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;
 }
+
+
 
 .container {
+    background: #eee;
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    
 }
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background: khaki;
+    /* margin: 0 auto; */
+}
+
+.nav-link-wrapper {
+    display: inline-block;
+}
+.nav-right > div{
+    margin-right: 20px;
+    margin-top: 14px;
+    
+}
+
+.nav-right > div a {
+    color: gray;
+    border: 2px solid rgb(226, 86, 39);
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background 0.5s;
+
+}
+
+.nav-right > div a:hover {
+    color: white;
+    background: rgb(226, 86, 39);
+    border: 2px solid gray;
+    
+}
+
+
+.main-wrapper {
+    background: teal;
+}
+
+.foot-wrapper {
+    background: rgb(0, 128, 53);
+
+}
+
