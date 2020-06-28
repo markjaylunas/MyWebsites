@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: #eee;
+}
+
+.container {
+    background: white;
+    width: 980px;
+    margin: 0 auto;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+.container * {
+    text-align: center;
+    padding:0;
+    color: white;
+    text-shadow: 2px 1px black;
+    font-size: 25px;
+    
+}
+
+header {
+    background: red;
+    grid-column: 1/13;
+}
+
+main {
+    background: blue;
+    grid-column: 2/11;
+    grid-row: 2/5;
+}
+
+aside {
+    background: green;
+    grid-row: 2/5;
+}
+
+section {
+    background: yellow;
+    grid-column: 11/13;
+    grid-row: 2/5;
+}
+
+footer {
+    background: violet;
+    grid-row: 5/6;
+    grid-column: 1/13;
+}

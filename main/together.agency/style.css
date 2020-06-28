@@ -1,0 +1,85 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background: #eee;
+}
+
+.container {
+    width: 1007px;
+    background: white;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    padding: 42.5px 29.75px;
+    justify-content: space-between;
+}
+
+.nav-left {
+    padding-left: 119px;
+}
+
+.nav-right {
+    padding-right: 119px;
+}
+
+.nav-right a {
+    margin-left: 25px;
+    color: rgb(39, 39, 39);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-right a:hover {
+    color: rgb(112, 110, 110);
+}
+
+.quote {
+    margin: 100px 0;
+}
+
+.quote h1{
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content {
+    display: grid;
+    padding: 0 119px;
+    height: 207px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+    "c2 c2 c1 c1 c1 c1 c1 c2 c2 c2 c2 c2" 
+    "c1 c1 c1 c1 c1 c1 c1 c3 c3 c3 c3 c3";
+    grid-gap: 10px;
+}
+
+video {
+    position: relative;
+}
+.box {
+    overflow: hidden;
+
+}
+
+.rideshur-box {
+    grid-area: c1;
+}
+
+.conductor-box {
+    grid-area: c2;
+}
+
+.flatfair-box {
+    grid-area: c3;
+}
+
+

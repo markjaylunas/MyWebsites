@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background: #eee;
+}
+
+.container {
+    background: white;
+    width: 980px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+nav {
+    background: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-left li {
+}
+
+.nav-left a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+main {
+    background: green;
+}
+
+section {
+    background: blue;
+}
+
+footer {
+    background: cyan;
+}
